@@ -18,6 +18,7 @@ import {
   Clock,
   Briefcase,
   Cog,
+  Cpu,
   type LucideIcon,
 } from 'lucide-react';
 
@@ -45,6 +46,7 @@ const TECH: Tech[] = [
   { label: 'Time Saved', Icon: Clock },
   { label: "Founder's Office", Icon: Briefcase },
   { label: 'Smarter Workflows', Icon: Cog },
+  { label: 'FastAPI', Icon: Cpu },
 ];
 
 const ROW_1 = TECH.slice(0, 9);

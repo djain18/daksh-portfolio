@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Phone, MapPin } from 'lucide-react';
+import { Mail, Linkedin, Phone, MapPin, GraduationCap, Award } from 'lucide-react';
 import FadeIn from '../components/FadeIn';
 
 const CONTACTS = [
@@ -21,6 +21,17 @@ const CONTACTS = [
     label: 'Bangalore, India',
     href: null,
     Icon: MapPin,
+  },
+];
+
+const CREDENTIALS = [
+  {
+    label: 'Christ University, Bangalore — BCA, Computer Science (2024–2027)',
+    Icon: GraduationCap,
+  },
+  {
+    label: 'Generative AI Mastermind — Certification',
+    Icon: Award,
   },
 ];
 
@@ -71,6 +82,24 @@ export default function FooterSection() {
           </div>
         </FadeIn>
 
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+          {CREDENTIALS.map(({ label, Icon }) => (
+            <div
+              key={label}
+              className="flex items-center gap-4 rounded-2xl border border-[#D7E2EA]/20 bg-[#141414] px-6 py-5 transition-colors duration-200 hover:border-[#D7E2EA]/50"
+            >
+              <Icon
+                className="text-[#BBCCD7] flex-shrink-0"
+                size={26}
+                strokeWidth={1.5}
+              />
+              <span className="text-[#D7E2EA] font-light tracking-wide text-sm sm:text-base break-all">
+                {label}
+              </span>
+            </div>
+          ))}
+        </div>
+
         <div
           className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-8"
           style={{ borderTop: '1px solid rgba(215, 226, 234, 0.15)' }}
@@ -79,7 +108,7 @@ export default function FooterSection() {
             Daksh Jain
           </span>
           <span className="text-[#D7E2EA]/50 font-light uppercase tracking-widest text-xs">
-            Growth Engineer
+            Builder
           </span>
         </div>
       </div>

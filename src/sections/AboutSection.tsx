@@ -3,7 +3,7 @@ import AnimatedText from '../components/AnimatedText';
 import ContactButton from '../components/ContactButton';
 
 const ABOUT_TEXT =
-  "I'm a growth engineer who helps startups solve their real operational bottlenecks with AI. Instead of getting lost in tools, i focus on the actual problem: the slow, manual, repetitive work that holds teams back, and i build AI systems that quietly handle it so founders can focus on growth. Let's fix what's slowing you down!";
+  "I'm working across ops, growth, and AI inside early-stage startups, on purpose, so that when I build my own someday, I'm not guessing. I've shipped a lead-gen pipeline pulling 200+ leads a week and an AI video pipeline running end to end on MCP. Right now I build with Claude Code and agentic workflows, not drag-and-drop automation. Let's fix what's slowing you down!";
 
 export default function AboutSection() {
   return (

@@ -11,22 +11,22 @@ interface Role {
 
 const ROLES: Role[] = [
   {
-    stat: 'Real-Time',
-    statLabel: 'job tracking',
-    company: 'Fleetooo',
-    role: 'Tech Intern',
-    dates: 'Apr 2026 - Present',
+    stat: '5',
+    statLabel: 'bedrock models benchmarked',
+    company: 'Godel Earth',
+    role: "Founder's Office - AI Infrastructure & Tooling",
+    dates: 'Aug 2026 - Present',
     outcome:
-      'Built an internal job-tracking system with auto-fill and a live admin dashboard, cutting manual data entry and giving full visibility into every job and its profit.',
+      'Connected an open-source LLM app to AWS Bedrock, benchmarked low-cost models against Claude, then ran a knowledge-transfer session so the team could cut inference costs. Also built internal automation for LinkedIn posting and client email outreach.',
   },
   {
-    stat: '5+',
-    statLabel: 'systems shipped',
-    company: 'Freelance',
-    role: 'AI Automation Specialist',
-    dates: 'Nov 2025 - Present',
+    stat: 'Daily',
+    statLabel: 'order & inventory ops',
+    company: 'Ravure',
+    role: 'Operations Intern',
+    dates: 'Jul 2026 - Present',
     outcome:
-      'Worked with clients to find their biggest operational bottlenecks and solved them with practical AI automations.',
+      'Own daily order fulfilment and inventory for a D2C brand end to end, from Shopify order audits to post-purchase exchanges and RTO tracking, catching billing errors before they ship.',
   },
   {
     stat: 'End-to-End',
@@ -36,6 +36,15 @@ const ROLES: Role[] = [
     dates: 'May 2026 - Jun 2026',
     outcome:
       'Produced UGC AI videos end to end, writing the prompts and storyboards and wiring AI tools together so full campaigns could be generated from a single brief.',
+  },
+  {
+    stat: 'Real-Time',
+    statLabel: 'job tracking',
+    company: 'Fleetooo',
+    role: 'Tech Intern',
+    dates: 'Apr 2026 - May 2026',
+    outcome:
+      'Built an internal job-tracking system with auto-fill and a live admin dashboard, cutting manual data entry and giving full visibility into every job and its profit.',
   },
   {
     stat: '80%',
@@ -54,6 +63,15 @@ const ROLES: Role[] = [
     dates: 'Dec 2025 - Mar 2026',
     outcome:
       'Kept the pipeline full with automated lead gen and personalized outreach that lifted responses by 35%.',
+  },
+  {
+    stat: '5+',
+    statLabel: 'systems shipped',
+    company: 'Freelance',
+    role: 'AI Automation Specialist',
+    dates: 'Nov 2025 - Present',
+    outcome:
+      'Worked with clients to find their biggest operational bottlenecks and solved them with practical AI automations.',
   },
   {
     stat: '50+',
